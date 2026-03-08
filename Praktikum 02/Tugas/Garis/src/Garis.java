@@ -46,7 +46,6 @@ public class Garis {
         double y1 = titikAwal.getOrdinat();
         double x2 = titikAkhir.getAbsis();
         double y2 = titikAkhir.getOrdinat();
-
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 
@@ -56,7 +55,6 @@ public class Garis {
         double y1 = titikAwal.getOrdinat();
         double x2 = titikAkhir.getAbsis();
         double y2 = titikAkhir.getOrdinat();
-
         return (y2 - y1) / (x2 - x1);
     }
 
@@ -64,7 +62,6 @@ public class Garis {
     public Titik getTitikTengah() {
         double xTengah = (titikAwal.getAbsis() + titikAkhir.getAbsis()) / 2;
         double yTengah = (titikAwal.getOrdinat() + titikAkhir.getOrdinat()) / 2;
-
         return new Titik(xTengah, yTengah);
     }
 
@@ -89,9 +86,7 @@ public class Garis {
         double m = getGradien();
         double x1 = titikAwal.getAbsis();
         double y1 = titikAwal.getOrdinat();
-
         double c = y1 - m * x1;
-
         return "y = " + m + "x + " + c;
     }
 }
