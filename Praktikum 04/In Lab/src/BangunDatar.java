@@ -50,3 +50,4 @@ public class BangunDatar {
         System.out.println("Border: " + border);
     }
 }
+ 

@@ -44,3 +44,4 @@ public class Persegi extends BangunDatar {
         System.out.println("Ini dari class Persegi");
     }
 }
+ 
