@@ -1,6 +1,5 @@
 public class MPersegi {
     public static void main(String[] args) {
-
         // Membuat objek Persegi
         Persegi p1 = new Persegi(5, "Putih", "Hitam");
         Persegi p2 = new Persegi(8, "Biru", "Merah");
