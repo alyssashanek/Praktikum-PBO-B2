@@ -3,7 +3,7 @@
 //  Pembuat : Alyssa Shane Kurniawan - 24060124120038
 //  Tanggal : 25 Maret 2024
 
-public class Persegi extends BangunDatar {
+public class Persegi extends BangunDatar implements IResize {
     private double sisi;
     
     public Persegi () {
@@ -49,8 +49,19 @@ public class Persegi extends BangunDatar {
         System.out.println("Sisi: " + sisi);
     }
 
-    public static void printCounterBangunDatar() {
-        System.out.println("Ini dari class Persegi");
+    @ Override
+    public void zoomIn() {
+        sisi = sisi * 1.1;
+    }
+
+    @ Override
+    public void zoomOut() {
+        sisi = sisi * 0.9;
+    }
+
+    @ Override
+    public void zoom(int percent) {
+        sisi = sisi * percent / 100.0;
     }
 }
  

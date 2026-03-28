@@ -35,5 +35,15 @@ public class MBangunDatar {
         System.out.println("P1 vs P2 (Keliling): " + P1.isEqualKeliling(P2));
         System.out.println("P1 vs L1 (Keliling): " + P1.isEqualKeliling(L1));
         System.out.println("L1 vs L2 (Keliling): " + L1.isEqualKeliling(L2));
+
+        ((IResize) P1).zoomIn();
+        ((IResize) L1).zoomOut();
+        P2.zoom(200);
+        L2.zoom(50);
+
+        System.out.println("P1 luas: " + P1.getLuas());
+        System.out.println("P2 luas: " + P2.getLuas());
+        System.out.println("L1 luas: " + L1.getLuas());
+        System.out.println("L2 luas: " + L2.getLuas());
     }
 }
