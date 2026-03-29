@@ -1,7 +1,7 @@
 //  Nama File : BangunDatar.java
 //  Deskripsi : Abstract Class BangunDatar sebagai parent class untuk semua jenis bangun datar
 //  Pembuat : Alyssa Shane Kurniawan - 24060124120038
-//  Tanggal : 25 Maret 2024
+//  Tanggal : 25 Maret 2026
 
 public abstract class BangunDatar {
     protected int jmlSisi;

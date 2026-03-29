@@ -1,7 +1,7 @@
 //  Nama File : MBangunDatar.java
 //  Deskripsi : Main class untuk menguji class Persegi dan Lingkaran yang merupakan turunan dari BangunDatar
 //  Pembuat : Alyssa Shane Kurniawan - 24060124120038
-//  Tanggal : 25 Maret 2024
+//  Tanggal : 25 Maret 2026
 
 public class MBangunDatar {
     public static void main(String[] args) {

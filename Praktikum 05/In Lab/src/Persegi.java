@@ -1,7 +1,7 @@
 //  Nama File : Persegi.java
 //  Deskripsi : Class Persegi sebagai turunan dari BangunDatar
 //  Pembuat : Alyssa Shane Kurniawan - 24060124120038
-//  Tanggal : 25 Maret 2024
+//  Tanggal : 25 Maret 2026
 
 public class Persegi extends BangunDatar implements IResize {
     private double sisi;

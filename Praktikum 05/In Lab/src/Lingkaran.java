@@ -1,7 +1,7 @@
 //  Nama File : Lingkaran.java
 //  Deskripsi : Class Lingkaran sebagai turunan dari BangunDatar
 //  Pembuat : Alyssa Shane Kurniawan - 24060124120038
-//  Tanggal : 25 Maret 2024
+//  Tanggal : 25 Maret 2026
 
 public class Lingkaran extends BangunDatar implements IResize {
     private double jari;
