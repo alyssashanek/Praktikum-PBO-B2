@@ -6,4 +6,9 @@ CREATE TABLE person (
     name VARCHAR(100)
 );
 
+CREATE TABLE mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100)
+);
+
 SELECT * FROM person;
