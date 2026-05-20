@@ -11,4 +11,6 @@ CREATE TABLE mahasiswa (
     nama VARCHAR(100)
 );
 
+
+SELECT * FROM mahasiswa;
 SELECT * FROM person;
