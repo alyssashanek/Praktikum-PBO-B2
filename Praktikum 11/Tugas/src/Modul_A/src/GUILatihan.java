@@ -10,6 +10,7 @@ import java.util.*;
  *
  * @author alyss
  */
+
 public class GUILatihan extends javax.swing.JFrame {
     DefaultListModel<String> dlm;
     List<String> listData = new ArrayList<>();
